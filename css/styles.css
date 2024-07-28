@@ -229,7 +229,6 @@ background-color: #FFF;
 #green-section {
     background-image: url('./images/background.jpg');
     fill:#CAEAC7;
-    background-color: #CAEAC7;
     background-size: cover; /* Ensures the background image covers the entire section */
     background-position: center center; /* Centers the image within the section */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -356,6 +355,14 @@ margin-top: 40px;
 border: none;
 cursor: pointer;
 }
+.container-green {
+    max-width: 320px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    background-color: #CAEAC7;
+}
 .brands {
     margin-top: 51px;
     padding-left: 20px;
@@ -383,4 +390,100 @@ line-height: 36px; /* 138.462% */
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.get-started {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 320px;
+    background-color: #4BA87D;
+}
+.get-text {
+    color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; /* 114.286% */
+}
+#pick-btn {
+    display: block;
+    margin-top: 40px;
+    color: #4BA87D;
+text-align: center;
+font-family: Raleway;
+font-size: 13px;
+font-style: normal;
+font-weight: 900;
+line-height: 15px; /* 115.385% */
+letter-spacing: 0.65px;
+padding-left: 23px;
+padding-right: 23px;
+padding-top: 13px;
+padding-bottom: 14px;
+border: none;
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 51px;
+}
+.footer-container {
+    width: 320px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 0 auto;
+}
+#footer-links {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-basis: 70px;
+    column-gap: 96px;
+    
+    row-gap: 7px;
+    position: relative;
+    z-index: 500;
+
+}
+.link-footer {
+    
+    color: #000;
+font-family: Raleway;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px; /* 116.667% */
+width: 70px;
+}
+#footer-links::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 281px;
+    top: 160px;
+    left: 0;
+    background-color: #DBDBDB;;
+    z-index: 999;
+    display: flex;
+}
+.last-part-footer {
+    margin-top: 35px;
+    color: #000;
+font-family: Raleway;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: 19px; /* 211.111% */
+}
+.last-text-footer {
+    width: 186px;
+    color: #000;
+}
+.terms {
+    margin-top: 14px;
 }
